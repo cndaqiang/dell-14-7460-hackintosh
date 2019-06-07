@@ -25,6 +25,8 @@ CLOVER就是一个引导管理器，开机若使用CLOVER引导，则CLOVER会�
 在windows下可以：
 先复制带拷贝的CLOVER文件，如仓库中的10.14 EFI/EFI<br>
 用DiskGenius打开任意一块GUID存储设备的ESP分区，点击左边的浏览文件，然后`Ctrl+v`就可以了
+![image](https://user-images.githubusercontent.com/26620270/59099779-bea22180-8956-11e9-84f4-204c99ad9174.png)
+mac下可以用[Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)进行修改
 
 不用使用一些教程里面的把镜像写入到U盘，又修改U盘里面的ESP分区里的EFI/CLOVER<br>
 感谢[底噪](https://zhih.me)提供的EFI文件，此EFI文件在安装和使用过程中都没有任何问题，同时大佬还提供了相关机型的EFI[底噪|黑苹果合集](https://zhih.me/hackintosh/#/)
@@ -44,4 +46,19 @@ CLOVER就是一个引导管理器，开机若使用CLOVER引导，则CLOVER会�
 写入
 
 #### 2. 配置EFI
-使用DiskGenius或者其他(Win/MAC)软件修改引导硬盘(电脑里的硬盘，SD卡，或者写完了镜像的U盘)的ESP分区
+使用DiskGenius或者其他(Win/MAC)软件修改引导硬盘(电脑里的硬盘，SD卡，或者写完了镜像的U盘)的ESP分区<br>
+注ESP分区要调到大于200M
+
+#### 3. BIOS设置
+设置硬盘 AHCI、关闭安全启动，保存退出
+
+#### 4. 重启选择开机启动项为刚才设置的EFI即可
+在CLOVER界面选择安装镜像所在的分区启动，安装即可
+
+#### 5. 其他
+我的安装过程就结束了，之后使用无需在进行其他操作<br>
+其他教程中的装完系统再配置EFI,CLOVER，是因为使用了U盘的EFI引导，我直接使用硬盘中的EFI引导和安装，故无后续
+
+## 安装之后
+遇到的问题，和优化，我放到[Issues](https://github.com/cndaqiang/dell-14-7460-hackintosh/issues)里了
+
