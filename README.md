@@ -41,7 +41,7 @@ mac下可以用[Clover Configurator](https://mackie100projects.altervista.org/do
 
 ### 安装过程
 下面的1，2不分先后，可以先写镜像（这个过程慢），在这过程中配置EFI
-#### 1. 利用工具镜像写入存储介质(U盘/硬盘分区)
+#### 1. 利用工具将镜像写入存储介质(U盘/硬盘分区)
 镜像下载[黑果小兵的部落阁](https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/)<br>
 写入
 
