@@ -1,4 +1,4 @@
-
+```
 #查看磁盘名称
 cndaqiangdeMacBook-Pro:data cndaqiang$ diskutil list
 /dev/disk0 (internal, physical):
@@ -42,3 +42,4 @@ sudo mount -t ntfs -o nobrowse,rw /dev/disk1s2 /Users/cndaqiang/data/
 
 # 添加到开机启动
 UUID=573A8178-EB46-4474-8DF9-4A822A2CB2EA /Users/cndaqiang/data ntfs rw,auto,nobrowse
+```
