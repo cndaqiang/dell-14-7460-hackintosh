@@ -1,3 +1,7 @@
+# 2021-07-14更新
+EFI采用OC:[Dell-7560-Hackintosh-OC](https://github.com/cndaqiang/Dell-7560-Hackintosh-OC)
+
+
 # dell-14-7460-hackintosh
 dell燃7000 I代 黑苹果记录
 
